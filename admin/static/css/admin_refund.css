@@ -10,6 +10,18 @@ body {
 
 /*----- MAIN -----*/
 
+@media screen and (max-width: 1200px) {
+    .left-nav {
+      min-width: 120px; /* 작은 화면 크기에 대한 최소 너비 설정 */
+    }
+
+    .content{
+        min-width: 600px;
+    }
+}
+
+
+
 /* 좌측 네비바 */
 .left-nav a {
     margin-top: 20%;
