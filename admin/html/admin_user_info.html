@@ -59,25 +59,25 @@
 
 
     <div class="main-box row bg-white">
-        <div class="left-nav col-1 flex-column mx-5 d-flex text-center">
+        <div class="left-nav col-1 flex-column mx-5 d-flex text-center fw-bold mt-5">
             <a href="admin_dashboard.html">
-                <p>대시보드</p>
+                <p class="text-dark">대시보드</p>
             </a>
             <a href="admin_statistics.html">
-                <p>통계자료</p>
+                <p class="text-dark">통계자료</p>
             </a>
             <a href="admin_refund.html">
-                <p>환불관리</p>
+                <p class="text-dark">환불관리</p>
             </a>
             <a href="admin_post.html">
-                <p>게시글 관리</p>
+                <p class="text-dark">게시글 관리</p>
             </a>
             <a href="admin_user_info.html">
-                <p>회원정보 조회</p>
+                <p class="text-dark">회원정보 조회</p>
             </a>
         </div>
         
-        <div class="panel col-9" id="output">
+        <div class="panel col-9 mt-5" id="output">
 
 
             <div class="panel-heading fs-2"><p>회원 목록</p></div>
@@ -96,14 +96,14 @@
                 <div class="col-md-6">
                     <div class="form">
                         <i class="fa fa-search"></i>
-                        <input type="text" class="form-control form-input w-100" placeholder="Search anything...">
+                        <input type="text" class="form-control form-input w-100 border" placeholder="Search anything...">
                         <span class="left-pan"><i class="fa fa-microphone"></i></span>
                     </div>
                 </div>
         
-                <button>
-                    검색
-                </button>
+                <form action="" method="post">
+                <button class="btn btn-secondary">검색</button>
+                </form>
             </div>
 
 
